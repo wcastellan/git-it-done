@@ -16,9 +16,7 @@ var getRepoName = function() {
         // if no repo was given, redirect to the homepage
         document.location.replace("./index.html");
     }
-
-
-}
+};
 
 var displayWarning = function(repo) {
     // add text to warning container
